@@ -21,3 +21,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/Junior-JAVA-Midterm/test4/build/
+/Junior-JAVA-Midterm/test4/nbproject/private/
+/Junior-JAVA-Midterm/test3/build/
+/Junior-JAVA-Midterm/test3/nbproject/private/
+/Junior-JAVA-Midterm/test2/build/
+/Junior-JAVA-Midterm/test2/nbproject/private/

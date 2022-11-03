@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication5;
+package test5;
 
 /**
  *
@@ -11,21 +11,22 @@ package javaapplication5;
  */
 import java.util.Scanner;
 
-public class JavaApplication5 {
+public class test5 {
     
     
     public static void main(String[] args) {
         
-        
-        int a,b;
+        double n;
+        int a=1,factorial=1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("請輸入階層值M：");
-        a = scanner.nextInt();
+        n = scanner.nextInt();
         
-        while(a<b){
-            
+        while(factorial<n){
+            a+=1;
+            factorial*=a;
         }
-        
+        System.out.println(a);
         
     }
     
