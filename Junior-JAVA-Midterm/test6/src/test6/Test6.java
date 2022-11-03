@@ -32,8 +32,8 @@ public class Test6 {
         String max = Arrays.stream(split).collect(Collectors.joining());
         System.out.println("max:"+max);
         System.out.println("min:"+min);
-        System.out.print("Ans:");
-        System.out.println(Integer.parseInt(max)-Integer.parseInt(min));
+        Ans = Integer.parseInt(max,10)-Integer.parseInt(min,10);
+        System.out.println("Ans:"+Ans);
     }
     
 }
