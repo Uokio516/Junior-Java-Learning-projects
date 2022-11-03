@@ -11,6 +11,7 @@ package test6;
  */
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.stream.Collectors;
 import java.util.Collections;
 
 public class Test6 {
@@ -20,20 +21,19 @@ public class Test6 {
      */
     public static void main(String[] args) {
 
+        int Ans;
         Scanner sc=new Scanner(System.in);
-        System.out.print("輸入值為：");
+        System.out.print("input:");
         String data = sc.next();
         String[] split = data.split(",");
-        for (int i=0; i<split.length; i++)
-            System.out.println(split[i]);
         Arrays.sort(split);
-        max = int(split);
-        
-        
-        
-        
-        
-        
+        String min = Arrays.stream(split).collect(Collectors.joining());
+        Arrays.sort(split, Collections.reverseOrder());
+        String max = Arrays.stream(split).collect(Collectors.joining());
+        System.out.println("max:"+max);
+        System.out.println("min:"+min);
+        System.out.print("Ans:");
+        System.out.println(Integer.parseInt(max)-Integer.parseInt(min));
     }
     
 }
