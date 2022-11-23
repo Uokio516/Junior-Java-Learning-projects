@@ -32,6 +32,7 @@ public class Test6 {
         String max = Arrays.stream(split).collect(Collectors.joining());
         System.out.println("max:"+max);
         System.out.println("min:"+min);
+        //Integer.parseInt字串轉整數型態(S,radix) radix是多少進位
         Ans = Integer.parseInt(max,10)-Integer.parseInt(min,10);
         System.out.println("Ans:"+Ans);
     }
