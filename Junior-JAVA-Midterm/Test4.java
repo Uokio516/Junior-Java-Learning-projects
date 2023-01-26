@@ -1,16 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication4;
-
-/**
- *
- * @author user
- */
 import java.util.Scanner;
-public class JavaApplication4 {
+public class Test4 {
 
     /**
      * @param args the command line arguments
@@ -22,6 +11,7 @@ public class JavaApplication4 {
         a=scanner.nextInt();
         System.out.println("請輸入Y軸座標：");
         b=scanner.nextInt();
+        scanner.close();
         if(a==b && a==0)
         {
             System.out.println("該點位於原點");
