@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Test7 {
     public static void main(String[] args) {
 
-    Scanner scanner = new Scanner(System.in); //初始化 Scanner 物件
-            
+    Scanner scanner = new Scanner(System.in); 
     int a,b,money;
     System.out.print("輸入月租費型式及通話費時間為:");
     String sc = scanner.next() ;
