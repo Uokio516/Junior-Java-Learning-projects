@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test5;
+
 
 /**
  *
@@ -11,7 +11,7 @@ package test5;
  */
 import java.util.Scanner;
 
-public class test5 {
+public class Test5 {
     
     
     public static void main(String[] args) {
@@ -20,6 +20,7 @@ public class test5 {
         int a=1,factorial=1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("請輸入階層值M：");
+        scanner.close();
         n = scanner.nextInt();
         
         while(factorial<n){

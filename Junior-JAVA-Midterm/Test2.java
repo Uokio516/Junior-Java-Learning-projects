@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Test2 {
+class Test2 {
 
     public static void main(String[] args) {
         float sum1,sum2;
