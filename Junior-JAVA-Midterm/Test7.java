@@ -8,55 +8,55 @@ public class Test7 {
             
     int a,b,cost;
     System.out.print("輸入月租費型式及通話費時間為:");
-    String s = scanner.next() ;
-    String[] nums = s.split(",") ;
+    String sc = scanner.next() ;
     scanner.close();
-    a = Integer.parseInt(nums[0]) ;
-    b = Integer.parseInt(nums[1]) ;
+    String[] scratchpad = sc.split(",") ;
+    a = Integer.parseInt(scratchpad[0]) ;
+    b = Integer.parseInt(scratchpad[1]) ;
     cost=0;
     switch (a) {
         case 186:
-            cost=(int) (Math.round(b*0.09));
+            cost= (int) (Math.round(b*0.09));
             if (a>b) {
                 cost=a;
             } else if (b/a<=1) {
-                cost=(int) (cost*0.9);
+                cost= (int) (cost*0.9);
             }
             else {
-                cost=(int) (cost*0.8);
+                cost= (int) (cost*0.8);
             }
             break;
         case 386:
-            cost=(int) (Math.round(b*0.08));
+            cost= (int) (Math.round(b*0.08));
             if (a>b) {
                 cost=a;
             } else if (b/a<=1) {
-                cost=(int) (cost*0.8f);
+                cost= (int) (cost*0.8f);
             }
             else {
-                cost=(int) (cost*0.7f);
+                cost= (int) (cost*0.7f);
             }
             break;
         case 586:
-            cost=(int) (Math.round(b*0.07));
+            cost= (int) (Math.round(b*0.07));
             if (a>b) {
                 cost=a;
             } else if (b/a<=1) {
-                cost=(int) (cost*0.7);
+                cost= (int) (cost*0.7);
             }
             else {
-                cost=(int) (cost*0.6);
+                cost= (int) (cost*0.6);
             }
             break;
         case 986:
-            cost=(int) Math.round((b*0.06));
+            cost= (int) Math.round((b*0.06));
             if (a>b) {
                 cost=a;
             } else if (b/a<=1) {
-                cost=(int) (cost*0.6);
+                cost= (int) (cost*0.6);
             }
             else {
-                cost=(int) (cost*0.5);
+                cost= (int) (cost*0.5);
             }
             break;
         default:
