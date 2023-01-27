@@ -3,13 +3,11 @@ import java.io.*;
 import java.lang.*;
 
 public class DijkstraExample {
-    // A utility method to compute the vertex with the distance value, which is
-    // minimum
-    // from the group of vertices that has not been included yet
+
     static final int totalVertex = 9;
 
     int minimumDistance(int distance[], Boolean spSet[]) {
-        // Initialize min value
+
         int m = Integer.MAX_VALUE, m_index = -1;
 
         for (int vx = 0; vx < totalVertex; vx++) {
