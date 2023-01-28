@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Test8 {
+public class Test08 {
    
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);

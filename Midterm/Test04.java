@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Test4 {
+public class Test04 {
 
     /**
      * @param args the command line arguments

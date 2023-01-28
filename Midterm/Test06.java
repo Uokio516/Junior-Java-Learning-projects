@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.Collections;
 
-public class Test6 {
+public class Test06 {
 
     /**
      * @param args the command line arguments

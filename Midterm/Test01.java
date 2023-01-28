@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test1 {
+public class Test01 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("請輸入一串數字: ");

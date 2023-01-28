@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test9 {
+public class Test09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("輸入s1為：");
