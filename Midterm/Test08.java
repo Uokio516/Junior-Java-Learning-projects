@@ -1,5 +1,5 @@
-import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Test08 {
    
@@ -44,6 +44,7 @@ public class Test08 {
         }
 
         // Deubg 用
+        System.out.println("n="+n);
         System.out.print("X=");
         for (int i = 0; i < numbers.length; i++) {
             System.out.printf("%d ", x[i]);
